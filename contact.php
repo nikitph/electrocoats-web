@@ -26,7 +26,7 @@ $mail->Port = 587;
 $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth = true;
 $mail->Username = 'electrocoats111@gmail.com';
-$mail->Password = 'satkarinfotech!@#';
+$mail->Password = '';
 $mail->setFrom('amruta@satkarinfotech.com', 'Electrocoating & Insulation Technologies Pvt. Ltd.');
 $mail->addAddress('mktg@electrocoats.com', 'Electrocoating & Insulation Technologies Pvt. Ltd.');
 $mail->Subject = 'Enquiry From Electrocoating & Insulation Technologies Pvt. Ltd.';
