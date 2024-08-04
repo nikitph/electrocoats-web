@@ -25,7 +25,7 @@ $mail->Port = 465;
 $mail->SMTPSecure = 'ssl';
 $mail->SMTPAuth = true;
 $mail->Username = 'adventtooltech1@gmail.com';
-$mail->Password = 'advent@021191';
+$mail->Password = '';
 $mail->setFrom('digibizwebsolutions@gmail.com', 'Advent ToolTech');
 $mail->addAddress('digibizwebsolutions@gmail.com', 'Advent ToolTech');
 $mail->Subject = 'Enquiry From career- Advent ToolTech';
