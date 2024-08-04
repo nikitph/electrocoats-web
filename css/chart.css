@@ -1,0 +1,288 @@
+@charset "utf-8";
+/* CSS Document */
+.services_inner h3 {
+    color: #000;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    height: 50px;
+/*    text-transform: uppercase;*/
+    transition: all .5s; -webkit-transition: all .5s; -moz-transition: all .5s
+}
+.services_img {
+    height: 230px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    line-height: 500px;
+    text-transform: uppercase;
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 45px
+}
+.services_img1 {
+    background-image: url(../images/services/services_trial.png)
+}
+.services_img2 {
+    background-image: url(../images/services/services_trial.png)
+}
+.services_img3 {
+    background-image: url(../images/services/services_trial.png)
+}
+.services_img4 {
+    background-image: url(../images/services/services_trial.png)
+}
+.services_section {
+    width: 100%;
+    height: 550px;
+    padding: 30px 50px
+}
+.services_branding {
+    height: 750px;
+    text-align: center;
+    background-image: url(../images/services/branding_back.png);
+     padding: 10px;
+}
+
+.main .services_branding p{
+    width: 90%;
+
+}
+
+.branding_inner{
+    height: 360px;
+    width: 1000px;
+    margin: auto;
+    position: relative;
+	text-align:center;
+	margin-bottom: 30px;
+}
+
+.branding_inner_img{height: 150px; width: 150px; position: absolute; background-repeat: no-repeat; opacity: 0; transition: all .5s; -webkit-transition: all .5s; -moz-transition: all .5s}
+.branding_inner p{opacity: 0;transition: all .5s; -webkit-transition: all .5s; -moz-transition: all .5s}
+
+.illustration_img{top: 24px;right: 26%;background-image: url(../images/services/arrow1.png);}
+.typography_img{top: 48%;
+right: 24%; background-image: url(../images/services/arrow2.png);}
+.tag_line_img{top: 72%;
+left: 43%; background-image: url(../images/services/arrow3.png);}
+.colorization_img{top: 48%;
+left: 26%; background-image: url(../images/services/arrow4.png);}
+.domain_img{top: 5%;
+left: 28%; background-image: url(../images/services/arrow5.png);}
+.font_img{top: 220px;right: 200px; background-image: url(../images/services/arrow6.png);}
+.packaging_img{bottom: -120px;right: 340; background-image: url(../images/services/arrow7.png);}
+
+.illustration{top: 0px;left: 31%;}
+.typography{top: 132px;
+right: 99px;}
+.tag_line{top: 83%;
+left: 56%;}
+.colorization{top: 83%;
+left: 11%;}
+.domain{top: 37%;
+left: 3%;}
+.font{bottom: -30px;right: 140px;}
+.packaging{bottom: -40px;right: 400px;}
+
+
+.branding_inner img{
+    height: 120px;
+	margin-top: 110px;
+}
+
+.branding_inner p{
+    width: auto !important;
+    position: absolute;
+
+background: #0069b3;
+color:#FFF;
+padding: 8px;
+
+border-radius: 10px;
+
+}
+
+.branding_inner p:after{
+    content: "";
+    position: absolute;
+}
+
+.services_promo {
+    text-align: center;
+    height: 650px;
+    padding: 0
+}
+.services_promo .promo_back {
+    width: 40%;
+    margin: auto
+}
+.services_ui {
+    text-align: left;
+    background-color: #eee
+}
+.services_ui_left,
+.services_ui_right,
+.services_tech_left,
+.services_tech_right {
+    width: 40%;
+    display: inline-table;
+    vertical-align: middle
+}
+.services_ui_right,
+.services_tech_right {
+    width: 60%;
+    position: relative;
+    text-align: center
+}
+.services_ui_right a {
+    color: #000
+}
+.services_ui_right p {
+    font-style: italic
+}
+.services_section .services_ui_right img {
+    width: 90%;
+    margin: 20px 0 0 5%
+}
+.services_tech {
+    text-align: right
+}
+.services_section .services_tech_right img {
+    width: 90%;
+    margin: 20px 5% 0 0
+}
+.services_section img {
+    margin: 20px auto
+}
+.services_section h2 {
+    font-size: 24px;
+/*    text-transform: uppercase;*/
+    color: #000
+}
+.services_section p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #000;
+    width: 70%;
+    margin: 20px auto
+}
+.services_section p a {
+    color: #000
+}
+.services_ui_left p,
+.services_tech_left p {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 100
+}
+.services_main h2 {
+    width: 80%;
+    margin: auto;
+    line-height: 80px;
+    font-size: 34px;
+    color: #333
+}
+.services_main p {
+    width: 80%;
+    margin: auto;
+    line-height: 32px;
+    font-size: 16px;
+    color: #333
+}
+.services_main section {
+    padding: 50px 0
+}
+.services_main section img {
+    margin: 50px auto
+}
+/*-------------------skillbar--------------------------*/
+.container-skillbar {
+		width:100%;
+		padding-top:30px;
+		height:auto;
+		overflow:none;
+	}
+	.skillbar {
+		position:relative;
+		display:block;
+		margin-bottom:15px;
+		width:100%;
+		background:#efefef;
+		height:30px;
+		border-radius:3px;
+		-moz-border-radius:3px;
+		-webkit-border-radius:3px;
+		-webkit-transition:0.4s linear;
+		-moz-transition:0.4s linear;
+		-ms-transition:0.4s linear;
+		-o-transition:0.4s linear;
+		transition:0.4s linear;
+		-webkit-transition-property:width, background-color;
+		-moz-transition-property:width, background-color;
+		-ms-transition-property:width, background-color;
+		-o-transition-property:width, background-color;
+		transition-property:width, background-color;
+	}
+
+	.skillbar-title {
+		position:absolute;
+		top:0;
+		left:0;
+		width:110px;
+		font-weight:bold;
+		font-size:13px;
+		color:#fff;
+		background:#6adcfa;
+		-webkit-border-top-left-radius:3px;
+		-webkit-border-bottom-left-radius:4px;
+		-moz-border-radius-topleft:3px;
+		-moz-border-radius-bottomleft:3px;
+		border-top-left-radius:3px;
+		border-bottom-left-radius:3px;
+	}
+
+	.skillbar-title span {
+		display:block;
+		background:rgba(0, 0, 0, 0.15);
+		padding:0 20px;
+		height:30px;
+		line-height:30px;
+		-webkit-border-top-left-radius:3px;
+		-webkit-border-bottom-left-radius:3px;
+		-moz-border-radius-topleft:3px;
+		-moz-border-radius-bottomleft:3px;
+		border-top-left-radius:3px;
+		border-bottom-left-radius:3px;
+	}
+
+	.skillbar-bar {
+		height:30px;
+		width:0px;
+		border-radius:3px;
+		-moz-border-radius:3px;
+		-webkit-border-radius:3px;
+	}
+
+	.skill-bar-percent {
+		position:absolute;
+		right:10px;
+		top:0;
+		font-size:11px;
+		height:30px;
+		line-height:30px;
+		color:#ffffff;
+		color:rgba(0, 0, 0, 0.5);
+	}
+	.skillbar-bar span{
+		color: #FFF;
+float: right;
+margin-right: 8px;
+line-height: 32px;
+font-size: 14px;
+	}
+	.container-skillbar h4{
+		text-align:center;
+	}

